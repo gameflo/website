@@ -353,7 +353,7 @@ html,body{
 	font-weight:500;
 	line-height: 1.28;
 	margin-bottom: 27px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Londrina Solid', cursive;
 	text-transform: capitalize;
 }
 .single-slide-item p {
@@ -514,7 +514,7 @@ html,body{
 .section-header h2{
 	color: #44454f;
 	font-size: 30px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Londrina Solid', cursive;
 	font-weight: 700;
 }
 .section-header h2 span{
@@ -676,7 +676,7 @@ html,body{
 .service-txt h2 a{
 	color:#44454f;	
 	font-size:24px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Londrina Solid', cursive;
 	padding: 47px 0 25px;
 }
 .service-txt p {
@@ -762,7 +762,7 @@ a:focus.service-btn{
 .project-header h2{
 	color: #44454f;
 	font-size: 30px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Londrina Solid', cursive;
 	font-weight: 700;
 }
 .project-header p{
@@ -1088,7 +1088,7 @@ a:active.learn-btn{
 .packeg_p{
 	color: #fff;
     font-size: 40px;
-    font-family: 'Playfair Display', serif;
+    font-family:'Londrina Solid', cursive;
     padding-top: 30px;
     padding: 11px 0 11px;
     -webkit-transition:all 0.3s linear;
@@ -1275,7 +1275,7 @@ a:active.learn-btn{
     display:block;
     font-size:16px;
 	margin-bottom: 17px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Londrina Solid', cursive;
 	font-style: italic ;
 	max-width: 350px;
 	font-weight: 600;
@@ -1556,7 +1556,7 @@ a:active.learn-btn{
 	color:#fff;
 	font-size:20px;
 	margin-bottom: 32px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Londrina Solid', cursive;
 	text-transform: capitalize;
 }
 .hm-foot-title .logo{
@@ -1771,7 +1771,7 @@ a:active.learn-btn{
 	color:#fff;
 	font-size:40px;
 	font-weight:700;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Londrina Solid', cursive;
 	margin-bottom: 3px;
 	left: 15px;
 	
