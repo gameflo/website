@@ -169,10 +169,11 @@ $(document).ready(function(){
 
         $('li.smooth-menu a').bind("click", function(event) {
             event.preventDefault();
-            var anchor = $(this);
+						var anchor = $(this);
+						console.log("offset", $(anchor.attr('href')).offset(), "href:", anchor.attr('href'))
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top - -1
-            }, 1200,'easeInOutExpo');
+            }, 800,'easeInOutExpo');
         });
         
         $('body').scrollspy({
