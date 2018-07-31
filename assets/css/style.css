@@ -249,7 +249,7 @@ html,body{
     border-color: transparent;
 }
 .navbar-default .navbar-nav li a{
-	font-size: 16px;
+	font-size: 18px;
 	color: #5fb1cd;
 	font-family: 'Lato', sans-serif;
 	margin-top:18px;
@@ -547,7 +547,8 @@ html,body{
 	-moz-transition:.25s; 
 	-ms-transition:.25s; 
 	-o-transition:.25s;
-    transition: .25s;
+	transition: .25s;
+	border-radius: 8px;
 }
 
 /*we-do-description*/
@@ -1127,9 +1128,6 @@ a:active.learn-btn{
 }
 
 /*testemonial-carousel*/
-.home1-testm.item {
-    padding-top: 49px;
-}
 .testemonial .owl-carousel .owl-item img {
     display: inline-block;
     width:100px;
@@ -1378,7 +1376,7 @@ a:active.learn-btn{
 	padding: 24px 21px;
 	font-size: 16px;
 	border: 1px solid #f9faff;
-    border-radius: 0px;
+    border-radius: 5px;
     box-shadow: none;
 	outline:0!important;
     background:#f9faff;
@@ -1415,7 +1413,7 @@ a:active.learn-btn{
     border:0;
     color: #fff;
     letter-spacing: 2.5px;
-    border-radius: 0px;
+    border-radius: 25px;
     font-size:14px;
 	-webkit-transition: .25s; 
 	-moz-transition:.25s; 
