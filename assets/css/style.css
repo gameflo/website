@@ -628,14 +628,12 @@ html,body{
 	font-size:16px;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.7;
-	max-width: 501px;
+	/* max-width: 501px; */
     margin-top: 28px;
     margin-bottom: -18px;
 }
 .about-us-img  {
-	box-shadow: 0 10px 30px rgba(112,134,230,.2);
 	width: 50%;
-	float: right;
 }
 /* .about-us-img:before{
 	position: absolute;
