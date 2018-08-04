@@ -1415,7 +1415,8 @@ a:active.learn-btn{
     margin-top:0px;
     outline: 0 !important;
     border:0;
-    color: #fff;
+	color: #fff;
+	background: #216880;
     letter-spacing: 2.5px;
     border-radius: 25px;
     font-size:14px;
@@ -1425,6 +1426,11 @@ a:active.learn-btn{
 	-o-transition:.25s;
     transition: .25s;
 	
+}
+
+.contact-form .single-contact-btn button.contact-btn:focus {
+	background: #fff;
+	color: #5fb1cd;
 }
 
 .single-contact-btn:hover button.contact-btn {
