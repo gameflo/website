@@ -1457,7 +1457,7 @@ a:active.learn-btn{
 }
 .contact-office-address p{
 	color: #fff;
-	font-size: 14px;
+	font-size: 18px;
 	margin-bottom: 14px;
 	font-family: 'Poppins', sans-serif;
 	margin-top: 30px;
@@ -1476,11 +1476,13 @@ a:active.learn-btn{
 	margin-bottom: 30px;
 }
 .single-online-address i {
-    padding-right: 7px;
+	padding-right: 7px;
+	margin-top: 3px;
+	font-size: 20px;
 }
 .single-online-address span{
   position:absolute;
-  font-size: 14px;
+  font-size: 18px;
   left:25px;
   top:0;
   width:100%;
