@@ -614,10 +614,10 @@ html,body{
 --------------------------------------*/
 .about-us{
 	background: #3e92af29;
-	padding: 120px 0 175px;
+	padding: 100px 100px;
 }
 .about-us-txt{
-	margin-top: 103px;
+	/* margin-top: 103px; */
 }
 .about-us h2 {
 	color:#4d4e54;	
@@ -627,7 +627,7 @@ html,body{
 }
 .about-us p{
 	color:#888;	
-	font-size:16px;
+	font-size:18px;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.7;
 	/* max-width: 501px; */
@@ -635,7 +635,8 @@ html,body{
     margin-bottom: -18px;
 }
 .about-us-img  {
-	width: 50%;
+	width: 45%;
+	margin-left: 40px;
 }
 /* .about-us-img:before{
 	position: absolute;
