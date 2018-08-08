@@ -96,7 +96,7 @@
 	.we-do-comment p {padding: 0 0px;}
 	.single-team-box {width:270px;}
 	.single-we-do-box {max-width: 350px;margin: 0 auto;margin-bottom: 30px;}
-	.about-us-img {max-width: 350px;margin: 0 auto; margin-top: 60px;}
+	.about-us-img {width: 100%;margin: 0 0 30px 0; }
 	.pricing-box {max-width: 350px;margin: 0 auto;margin-bottom: 30px;}
 	.team-box-inner {max-width: 270px;}
 	.single-news-box {margin: 0 auto;max-width: 350px;margin-bottom: 30px;min-height: 508px;}
