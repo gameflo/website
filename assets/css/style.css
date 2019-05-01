@@ -595,6 +595,21 @@ html,body{
 	margin: 0 auto;
 }/* we-do-comment */
 
+.workshops {
+	background: #3e92af29;
+}
+
+/* we-do-comment */
+.workshop-comment {
+    margin-top: 14px;
+}
+.workshop-comment p{
+	color:#888;
+	font-size:16px;
+    font-family: 'Poppins', sans-serif;
+	max-width: 450px;
+	margin: 0 auto;
+}/* we-do-comment */
 
 /*we-do-description*/
 .single-we-do-box:hover{
@@ -612,8 +627,8 @@ html,body{
 /*-------------------------------------
 		5. About
 --------------------------------------*/
-.about-us{
-	background: #3e92af29;
+.about-us, .workshops {
+	/* background: #3e92af29; */
 	padding: 100px 100px;
 }
 .about-us-txt{
