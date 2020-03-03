@@ -630,7 +630,9 @@ html,body{
 --------------------------------------*/
 .about-us, .workshops {
 	/* background: #3e92af29; */
-	padding: 100px 100px;
+	/*padding: 100px 100px;*/
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .about-us-txt{
 	/* margin-top: 103px; */
@@ -670,11 +672,26 @@ html,body{
 --------------------------------------*/
 
 .pickup{
-  padding: 115px 0 82px;
+  padding: 85px 0 125px;
   background-color: #f9faff;
-
+  min-height: 100vh;
+}
+.pickup h2{
+  font-size: 36px;
+  padding: 15px;
 }
 
+.pickup h3{
+  color: #4d4e54;
+  padding: 15px;
+	font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pickup p{
+  padding: 15px;
+  font-size: 22px;
+}
 
 
 /*-------------------------------------
@@ -2035,7 +2052,7 @@ a:active.learn-btn{
 
 /*bl-single-head*/
 .bl-single-head h3 a {
-    padding: 21px 0 17px 0;
+    padding: 25px 0 17px 0;
     color: #4d4e54;
     font-size: 30px;
     font-weight: 700;
@@ -2057,7 +2074,7 @@ a:active.learn-btn{
 
 /*bl-single-para*/
 .bl-single-para{
-	padding: 34px 0 0 0;
+	padding: 34px 0 30px 0;
 }
 .bl-single-para h3{
 	color: #636363;
@@ -2110,7 +2127,14 @@ a:active.learn-btn{
 }/*blog-xtra-body*/
 
 /*bl-single-para*/
+.bl-single-para p{
+  padding-right: 150px;
 
+}
+.whitespace{
+  padding: 50px;
+
+}
 /*bl-single-contact-box*/
 .bl-single-contact-box{
 	border-top:1px solid #ebebeb;
@@ -2282,7 +2306,33 @@ a:active.learn-btn{
 
 	.teaser {
 		background-color: #f9faff;
-		padding: 100px 100px;
+    align-content: center;
+    padding: 50px 50px;
 	}
+
+  /*===============================
+      Blogposts
+  ===============================*/
+
+.blogpost h2{
+  padding-top: 35px;
+  font-family: Lato, sans-serif;
+}
+.blogpost p{
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Lato,  serif;
+  font-weight: 400;
+}
+.blogpost h4{
+  font-family: Lato, serif;
+  font-weight: 400;
+  padding: 10px;
+}
+.blogpost li{
+  font-family: Lato, serif;
+  font-weight: 400;
+}
 
 /*========================Thank you=================
