@@ -517,8 +517,8 @@ html,body{
 .section-header h2{
 	color: #4d4e54;
 	font-size: 30px;
-	font-family: 'Londrina Solid', cursive;
-	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-weight: 1000;
 }
 .section-header h2 span{
 	color: #4d4e54;
@@ -2056,9 +2056,10 @@ a:active.learn-btn{
     color: #4d4e54;
     font-size: 30px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', serif;
 	text-transform: capitalize;
 }
+
 .bl-single-head p{
 	color: #a4a4a4;
     font-size: 14px;
@@ -2069,7 +2070,11 @@ a:active.learn-btn{
 	color: #4d4e54;
     font-family: 'Poppins', sans-serif;
 
-}/*bl-single-head*/
+}
+.blog-quote{
+  font-weight: bold;
+}
+/*bl-single-head*/
 
 
 /*bl-single-para*/
@@ -2089,8 +2094,9 @@ a:active.learn-btn{
 	color: #888;
     font-size:16px;
     font-family: 'Poppins', sans-serif;
-	line-height: 1.87;
+    line-height: 1.87;
     text-transform: none;
+    padding-bottom: 25px;
 }
 .bl-single-para  blockquote {
     color: #636363;
@@ -2131,6 +2137,12 @@ a:active.learn-btn{
   padding-right: 150px;
 
 }
+
+.blog img{
+  width: 80%;
+  height: 80%;
+}
+
 .whitespace{
   padding: 50px;
 
