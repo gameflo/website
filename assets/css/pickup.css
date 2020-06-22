@@ -1,0 +1,124 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1170px;
+    }
+
+    .container.body{
+        max-width: 1820px;
+    }
+}
+
+section {
+    max-width: 1450px;;
+}
+
+.pickup-header {
+    background-color: #000;
+}
+
+.pickup-header .logo-container {
+    padding-top: 8em;
+    background-color: #000;
+}
+
+.pickup-header .logo-container .logo-subhead {
+    width: 18em;
+    /* font-size: 32px; */
+}
+
+.pickup-header .logo-container .logo-subhead p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.pickup-headline {
+    background-color: #f8d14f;
+}
+
+.pickup-headline .overview {
+    padding: 4em;
+}
+
+.pickup-headline .overview h1 {
+    font-size: 2.5em;
+} 
+
+.pickup-headline .overview p {
+    font-size: 1.7em;
+}
+
+.pickup-callouts .callout-1{
+    background-color: #fac7df;
+}
+
+.pickup-callouts .callout-2 {
+    background-color: #23c67f;
+}
+
+.pickup-callouts .callout-3 {
+    background-color: #9de3fd;
+}
+
+
+.pickup-about {
+    background-color: #000;;
+}
+
+.pickup-about .about-blurb {
+    color: #fff;
+
+}
+
+.pickup-about .about-blurb p {
+    font-size: 1.3em;
+}
+
+.pickup-ks {
+    background-color: #f8d14f;
+}
+
+.pickup-ks .email-input {
+    height: 4em;
+    border-radius: 24px 0 0 24px;
+    width: 70%;
+    padding-left: 1.5em;
+    font-size: 1em;
+}
+
+.pickup-ks .submit {
+    position: relative;
+    right: 4px;
+    bottom: 1px;
+    height: 4em;
+    border-radius: 0 24px 24px 0;
+    padding-left: 1.3em;
+    background-color: #9449e9;
+    color: #fff;
+}
+
+.pickup-ks .ks-label p {
+    font-size: 1.5em;
+    margin-right: 7px;
+}
+
+
+.pickup-footer {
+    background-color: #000;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 1.4em;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 1.4em;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 1.4em;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 1.4em;
+  }
+
+  .navbar-default.navbar-nav li a:active, .navbar-default.navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover {
+      padding-bottom: 0px;
+  }
