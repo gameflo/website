@@ -22,12 +22,12 @@ section {
 }
 
 .pickup-header .logo-container .logo-subhead {
-    width: 18em;
-    /* font-size: 32px; */
+    width: 20em;
+    font-family: 'Karla', sans-serif; 
 }
 
 .pickup-header .logo-container .logo-subhead p {
-    font-size: 18px;
+    font-size: 22px;
     color: #fff;
 }
 
@@ -39,12 +39,56 @@ section {
     padding: 4em;
 }
 
-.pickup-headline .overview h1 {
-    font-size: 2.5em;
+.pickup-headline .quick-stroke {
+    position: relative;
+    width: 16em;
+    top: 4.42em;
+    left: 12em;
+    /* width: 720px; */
+}
+
+.pickup-headline .tough-stroke {
+    position: relative;
+    width: 18em;
+    top: 8em;
+    left: -11em;
+
+    /* width: 720px; */
+}
+
+.pickup-headline .game-metadata img {
+    margin-right: 6em;
+    margin-top: 2em;
+}
+
+.pickup-headline .overview .headline {
+    font-size: 1.5em;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
 } 
 
 .pickup-headline .overview p {
     font-size: 1.7em;
+    font-family: 'Karla', sans-serif;
+}
+
+.pickup-callouts .ch {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.pickup-callouts .callout-box {
+    width: 80%;
+}
+
+.pickup-callouts p {
+    font-size: 1.3em;;
+}
+
+.pickup-callouts .callout-img {
+    width: 150px;
 }
 
 .pickup-callouts .callout-1{
@@ -55,26 +99,99 @@ section {
     background-color: #23c67f;
 }
 
+
+.pickup-callouts .callout-2 img {
+    width: 150px;
+}
+
 .pickup-callouts .callout-3 {
     background-color: #9de3fd;
 }
 
+.pickup-callouts .callout-3 img {
+    width: 125px;
+}
 
 .pickup-about {
     background-color: #000;;
 }
 
 .pickup-about .about-blurb {
+    font-family: 'Barlow', sans-serif;
+    padding: 1em 4.8em
+}
+
+.pickup-about p.header  {
+    color: #f8d14f;
+    font-weight: 200;
+    font-size: 3em;
+}
+
+.pickup-about .about-blurb .body {
     color: #fff;
-
+    font-weight: 200;
+    font-size: 1.22em;
 }
 
-.pickup-about .about-blurb p {
+.pickup-about .about-blurb .about-stroke {
+    width: 330px;
+    position: relative;
+    bottom: 15px;
+}
+
+/* .pickup-about .about-blurb p {
     font-size: 1.3em;
-}
+} */
 
 .pickup-ks {
     background-color: #f8d14f;
+}
+
+
+
+.mask img {
+    -webkit-transform: rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.mask img {
+    position:absolute;
+    margin-top:-150px;
+    margin-left:-200px;
+    top:40%;
+    left:40%;
+    width: 800px;
+}
+
+
+.mask {
+    position:relative;
+    height:450px;
+    width:500px;
+    left: 90px;
+    /* float:left; */
+    overflow:hidden;
+    margin:15px;
+}
+/* .pickup-ks .signup-img {
+    clip-path:  polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.pickup-ks .signup-img img {
+    overflow: hidden;
+    transform: rotate(45deg);
+} */
+
+.pickup-ks .signup-header {
+    font-family: 'Karla', sans-serif;
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+.pickup-ks  form {
+    margin-bottom: 12em;
 }
 
 .pickup-ks .email-input {
@@ -104,6 +221,14 @@ section {
 
 .pickup-footer {
     background-color: #000;
+}
+
+.pickup-footer a {
+    color: #fff;
+}
+
+.pickup-footer .meta {
+    color: #fff;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
