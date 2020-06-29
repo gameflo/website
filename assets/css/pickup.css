@@ -35,6 +35,11 @@ section {
     background-color: #f8d14f;
 }
 
+.pickup-headline .headline-container {
+    /* display: flex;
+    flex-direction: row; */
+}
+
 .pickup-headline .overview {
     padding: 4em;
 }
@@ -78,6 +83,16 @@ section {
     text-transform: uppercase;
     font-size: 18px;
 }
+
+.pickup-callouts  .callout-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pickup-callouts  .callout-container .callout {
+    flex-grow: 1;
+}
+
 
 .pickup-callouts .callout-box {
     width: 80%;
@@ -246,4 +261,54 @@ section {
 
   .navbar-default.navbar-nav li a:active, .navbar-default.navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover {
       padding-bottom: 0px;
+  }
+
+  /* Responsive */
+
+  @media only screen and (max-width: 600px) {
+    .tough-stroke {
+        display: none;
+    }
+
+    .quick-stroke {
+        display: none;
+    }
+
+    .signup-img {
+        display: none;
+    }
+
+    .pickup-callouts  .callout-container {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        padding: 0 1em;
+    }
+
+    .pickup-about .about-blurb {
+        padding-bottom: 3em;
+    }
+
+    .signup-container {
+        padding: 0 2em 3em;
+    }
+
+    .pickup-footer img.logo-footer{
+        display: block;
+        margin-bottom: 2em;
+        margin-left: 4em;
+    }
+
+    .pickup-ks form {
+        margin-bottom: 8em;
+    }
+
+    .pickup-headline .overview {
+        padding: 3em; 
+    }
+
+    .pickup-headline .game-metadata img {
+        margin-right: 1.2em;
+    }
   }
