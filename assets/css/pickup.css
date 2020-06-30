@@ -8,8 +8,12 @@
     }
 }
 
+body {
+    background-color: #000;
+}
+
 section {
-    max-width: 1450px;;
+    max-width: 2000px;;
 }
 
 .pickup-header {
@@ -41,7 +45,7 @@ section {
 }
 
 .pickup-headline .overview {
-    padding: 4em;
+    padding: 2em 4em;
 }
 
 .pickup-headline .quick-stroke {
