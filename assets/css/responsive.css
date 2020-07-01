@@ -167,6 +167,7 @@
 @media screen and (max-width:399px){
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {width: 110%;}
 	.single-news-box {min-height:430px;}
+	.workshop-comment  {padding-left: 16px; padding-right: 16px;}
 	
 }/*max-width:399px*/
 
@@ -185,6 +186,6 @@
 	.single-ststistics-box { margin-bottom: 60px;}
 	.contact-form h3,.contact-office-address h3 {font-size: 18px;max-width: 225px;
     line-height: 1.5;}
-	
+
 }/*max-width:320px*/
 

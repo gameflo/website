@@ -19,18 +19,19 @@ font-family: 'Lato', sans-serif;
 3.	Menu
 4.	Slider
 5. 	About
-6. 	Service
-7. 	Statistics
-8. 	Project
-9. 	Team
-10.	Pricing
-11.	Testimonial
-12. Client
-11.	Testemonial 
-14. Contact
-15. New-project
-16.	Footer
-17.	Footer Copyright
+6.  Pickup
+7. 	Service
+8. 	Statistics
+9. 	Project
+10. Team
+11.	Pricing
+12.	Testimonial
+13. Client
+14.	Testemonial
+15. Contact
+16. New-project
+17.	Footer
+18.	Footer Copyright
 
 ===========*/
 /*-------------------------------------
@@ -62,7 +63,7 @@ a,a:hover,a:active,a:focus {
 	font-size:14px;
 	padding:0;
 }
-h1,h2,h3,h4,h5,h6 { 
+h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	text-transform: capitalize;
 }
@@ -78,7 +79,7 @@ ul{
 }
 ul li {
 	list-style: none;
-	
+
 }
 select,input,textarea{box-shadow:none;outline:0!important;}
 
@@ -89,11 +90,11 @@ html,body{
     z-index: 2;
 }
 [placeholder]:focus::-webkit-input-placeholder {
-  -webkit-transition: opacity 0.3s 0.3s ease; 
-  -moz-transition: opacity 0.3s 0.3s ease; 
-  -ms-transition: opacity 0.3s 0.3s ease; 
-  -o-transition: opacity 0.3s 0.3s ease; 
-  transition: opacity 0.3s 0.3s ease; 
+  -webkit-transition: opacity 0.3s 0.3s ease;
+  -moz-transition: opacity 0.3s 0.3s ease;
+  -ms-transition: opacity 0.3s 0.3s ease;
+  -o-transition: opacity 0.3s 0.3s ease;
+  transition: opacity 0.3s 0.3s ease;
   opacity: 0;
 }
 
@@ -122,12 +123,12 @@ html,body{
 	margin-right: 50px;
 	font-size:16px;
 	font-family: 'Poppins', sans-serif;
-	-webkit-transition: .25s; 
-	-moz-transition:.25s; 
-	-ms-transition:.25s; 
+	-webkit-transition: .25s;
+	-moz-transition:.25s;
+	-ms-transition:.25s;
 	-o-transition:.25s;
     transition: .25s;
-	
+
 }
 .header-left li  i{
 	margin-right:7px;
@@ -141,7 +142,7 @@ html,body{
 .header-right {
 	color: #888;
 	font-family: 'Poppins', sans-serif;
-	
+
 }
 .header-right li {
 	display:inline-block;
@@ -150,12 +151,12 @@ html,body{
 	font-size:16px;
 	font-family: 'Poppins', sans-serif;
 	padding-bottom: 7px;
-	-webkit-transition: .25s; 
-	-moz-transition:.25s; 
-	-ms-transition:.25s; 
+	-webkit-transition: .25s;
+	-moz-transition:.25s;
+	-ms-transition:.25s;
 	-o-transition:.25s;
     transition: .25s;
-	
+
 }
 .header-right li a:hover{
 	color:#7370d8;
@@ -177,7 +178,7 @@ html,body{
 
 /* header-right */
 
-/* modal 
+/* modal
 --------------------*/
 .modal-header {
     border-bottom: none;
@@ -192,7 +193,7 @@ html,body{
     margin-top: 25px;
     background: transparent;
     border-color: #eb1b33;
-    color: #eb1b33;	
+    color: #eb1b33;
 }
 /*-------------------------------------
 		3. Menu
@@ -255,9 +256,9 @@ html,body{
 	font-family: 'Lato', sans-serif;
 	margin-top:18px;
 	padding-left: 27px;
-	-webkit-transition: .25s; 
-	-moz-transition:.25s; 
-	-ms-transition:.25s; 
+	-webkit-transition: .25s;
+	-moz-transition:.25s;
+	-ms-transition:.25s;
 	-o-transition:.25s;
     transition: .25s;
 }
@@ -382,9 +383,9 @@ html,body{
 	margin-bottom: 30px;
 	outline:0;
 	box-shadow:none;
-	-webkit-transition:.5s; 
-	-moz-transition:.25s; 
-	-ms-transition:.25s; 
+	-webkit-transition:.5s;
+	-moz-transition:.25s;
+	-ms-transition:.25s;
 	-o-transition:.25s;
     transition: .25s;
 }
@@ -461,9 +462,9 @@ html,body{
 	font-weight:700;
 	font-family: 'Lato', sans-serif;
 	border-radius: 50%;
-	-webkit-transition:.5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -516,8 +517,8 @@ html,body{
 .section-header h2{
 	color: #4d4e54;
 	font-size: 30px;
-	font-family: 'Londrina Solid', cursive;
-	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-weight: 1000;
 }
 .section-header h2 span{
 	color: #4d4e54;
@@ -545,9 +546,9 @@ html,body{
 	overflow-x:hidden;
 	margin-top: 15px;
 	opacity:1;
-	-webkit-transition: .25s; 
-	-moz-transition:.25s; 
-	-ms-transition:.25s; 
+	-webkit-transition: .25s;
+	-moz-transition:.25s;
+	-ms-transition:.25s;
 	-o-transition:.25s;
 	transition: .25s;
 	border-radius: 8px;
@@ -566,9 +567,9 @@ html,body{
 .we-do-img {
     margin-right: 5px;
 	border-radius:50%;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -629,19 +630,21 @@ html,body{
 --------------------------------------*/
 .about-us, .workshops {
 	/* background: #3e92af29; */
-	padding: 100px 100px;
+	/*padding: 100px 100px;*/
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .about-us-txt{
 	/* margin-top: 103px; */
 }
 .about-us h2 {
-	color:#4d4e54;	
+	color:#4d4e54;
 	font-size:30px;
 	font-family: 'Londrina Solid', cursive;
 	font-weight: 700;
 }
 .about-us p{
-	color:#888;	
+	color:#888;
 	font-size:18px;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.7;
@@ -663,8 +666,36 @@ html,body{
 	height: 100%;
 	z-index: -1;
 } */
+
 /*-------------------------------------
-		6. Service
+		6. Pickup
+--------------------------------------*/
+
+.pickup{
+  padding: 85px 0 125px;
+  background-color: #f9faff;
+  min-height: 100vh;
+}
+.pickup h2{
+  font-size: 36px;
+  padding: 15px;
+}
+
+.pickup h3{
+  color: #4d4e54;
+  padding: 15px;
+	font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pickup p{
+  padding: 15px;
+  font-size: 22px;
+}
+
+
+/*-------------------------------------
+		7. Service
 --------------------------------------*/
 .service{
     padding: 116px 0 85px;
@@ -687,20 +718,20 @@ html,body{
 	max-width: 304px;
     margin: 0 auto;
    	margin-bottom: 15px;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
 .service-txt h2 a{
-	color:#4d4e54;	
+	color:#4d4e54;
 	font-size:24px;
 	font-family: 'Londrina Solid', cursive;
 	padding: 47px 0 25px;
 }
 .service-txt p {
-	color:#756c6a;	
+	color:#756c6a;
 	font-size:16px;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.67;
@@ -723,7 +754,7 @@ a:focus.service-btn{
 }
 
 /*-------------------------------------
-		7. Statistics
+		8. Statistics
 --------------------------------------*/
 .statistics{
 	position:relative;
@@ -766,13 +797,13 @@ a:focus.service-btn{
 }
 
 /*-------------------------------------
-		8. Project
+		9. Project
 --------------------------------------*/
 .project{
 	padding: 117px 0 109px;
 }
 .project-details{
-	
+
 }
 .project-content {
     margin-top:62px;
@@ -854,7 +885,7 @@ a:focus.service-btn{
     transition: .7s;
 }
 .isotope-overlay h3 a,.isotope-overlay  a{
-	color:#fff;	
+	color:#fff;
 	font-size:24px;
 	font-family: 'Lato', sans-serif;
 }
@@ -862,7 +893,7 @@ a:focus.service-btn{
 	margin-top: 20px;
 }
 .isotope-overlay p{
-	color:#fff;	
+	color:#fff;
 	font-size:14px;
 	font-family: 'Lato', sans-serif;
 	margin-top: 15px;
@@ -903,7 +934,7 @@ a:focus.service-btn{
 }/*project-btn*/
 
 /*-------------------------------------
-		9. Team
+		10. Team
 --------------------------------------*/
 .team{
 	padding: 120px 0;
@@ -1034,7 +1065,7 @@ a:active.learn-btn{
 	box-shadow: 0px 5px 35px 5px rgba(6,5,49,.2);
 }
 /*-------------------------------------
-		10.	Pricing 
+		11.	Pricing
 --------------------------------------*/
 .pricing{
 	padding:115px 0 78px;
@@ -1137,7 +1168,7 @@ a:active.learn-btn{
 }
 
 /*-------------------------------------
-		11.	Testemonial 
+		12.	Testemonial
 --------------------------------------*/
 
 .testemonial{
@@ -1165,7 +1196,7 @@ a:active.learn-btn{
     margin: 5px 3px;
     border-radius:50%;
     background: transparent;
-    border: 2px solid #dfdeff;	
+    border: 2px solid #dfdeff;
 }
 .testemonial .owl-theme .owl-dots .owl-dot.active span{
     background: #5fb1cd;
@@ -1205,7 +1236,7 @@ a:active.learn-btn{
 /*testemonial-carousel*/
 
 /*-------------------------------------
-		12. Client
+		13. Client
 --------------------------------------*/
 .clients{
 	background: #7370d8;
@@ -1227,7 +1258,7 @@ a:active.learn-btn{
 }
 
 /*-------------------------------------
-		13. Latest News
+		14. Latest News
 --------------------------------------*/
 .news{
 	padding: 114px 0 95px;
@@ -1262,7 +1293,7 @@ a:active.learn-btn{
     -moz-transform:scale(1);
     -ms-transform:scale(1);
     -o-transform:scale(1);
-    transform:scale(1); 
+    transform:scale(1);
 	-webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
@@ -1329,7 +1360,7 @@ a:active.learn-btn{
 }
 .single-news-box:hover .news-box-inner {
 	background: #f9faff;
-	
+
 }/*team-box-inner*/
 .single-news-box:hover{
 	box-shadow:0 5px 35px 0px rgba(115,112,215,.2);
@@ -1343,7 +1374,7 @@ a:active.learn-btn{
 }
 
 /*-------------------------------------
-		14. Contact
+		15. Contact
 --------------------------------------*/
 .contact {
     padding: 115px 0 120px;
@@ -1385,11 +1416,11 @@ a:active.learn-btn{
 .contact-form {
 	position: relative;
 	margin: 50px 0 0 0;
-	
+
 }
 .contact-form  .form-group {
     margin-bottom: 15px;
-	
+
 }
 .contact-form .form-control {
 	padding: 24px 21px;
@@ -1419,9 +1450,9 @@ a:active.learn-btn{
 	text-transform:uppercase;
 	font-family: 'Poppins', sans-serif;
 	margin-top: 3px;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -1435,12 +1466,12 @@ a:active.learn-btn{
     letter-spacing: 2.5px;
     border-radius: 25px;
     font-size:14px;
-	-webkit-transition: .25s; 
-	-moz-transition:.25s; 
-	-ms-transition:.25s; 
+	-webkit-transition: .25s;
+	-moz-transition:.25s;
+	-ms-transition:.25s;
 	-o-transition:.25s;
     transition: .25s;
-	
+
 }
 
 .contact-form .single-contact-btn button.contact-btn:focus {
@@ -1518,9 +1549,9 @@ a:active.learn-btn{
 	color: #fff;
 	margin-right:13px;
 	padding: 0px 12px 0px 0px;
-	-webkit-transition: .3s; 
-	-moz-transition:.3s; 
-	-ms-transition:.3s; 
+	-webkit-transition: .3s;
+	-moz-transition:.3s;
+	-ms-transition:.3s;
 	-o-transition:.3s;
     transition: .3s;
 
@@ -1529,7 +1560,7 @@ a:active.learn-btn{
 /* contact-right */
 
 /*-------------------------------------
-		15. New-project
+		16. New-project
 --------------------------------------*/
 .new-project {
     padding: 72px 0 72px;
@@ -1554,9 +1585,9 @@ a:active.learn-btn{
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	-webkit-transition:.5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
 	-o-transition:.5s;
     transition: .5s;
 }
@@ -1567,7 +1598,7 @@ a:active.learn-btn{
     border: 1px solid #f5f5fb;
 }
 /*-------------------------------------
-		16. Footer
+		17. Footer
 --------------------------------------*/
 .hm-footer{
     padding-bottom:68px;
@@ -1636,7 +1667,7 @@ a:active.learn-btn{
 	color:#aaa;
 	padding-bottom: 20px;
 	text-transform:capitalize;
-	
+
 
 	-webkit-transition:all 0.2s linear;
 	-moz-transition:all 0.2s linear;
@@ -1764,7 +1795,7 @@ a:active.learn-btn{
 .foot-menu   li a,
 .foot-menu   li a:hover,
 .foot-menu   li a:focus{
-	
+
 }
 .foot-menu  li {
 	position:relative;
@@ -1803,7 +1834,7 @@ a:active.learn-btn{
 	font-family: 'Londrina Solid', cursive;
 	margin-bottom: 3px;
 	left: 15px;
-	
+
 }
 .about-part-content {
     position: relative;
@@ -1899,7 +1930,7 @@ a:active.learn-btn{
 	-ms-transform:translate(10px);
 	-o-transform:translate(10px);
 	transform:translate(10px);
-	
+
 }
 .blog-categories-list ul li a i{
 	padding-right: 10px;
@@ -1913,7 +1944,7 @@ a:active.learn-btn{
     display: -webkit-box;
     max-width: 240px;
     padding:0px 0 25px;
-    
+
 }
 .bl-img a img{
 	width: 100px;
@@ -1969,24 +2000,28 @@ a:active.learn-btn{
     transition: .5s;
 }
 
-.blogs-widget .btn:hover{	
+.blogs-widget .btn:hover{
 	color:#908edf;
 	border:1px solid #908edf;
 }
-/*-blog button-*/\
+
+.bl-article-post-img {
+	margin-top: 12px;
+}
+/*-blog button-*/
 
 /*pagination*/
 .pagination-part {
     text-align: center;
 }
 
-.pagination-part .pagination>.active>a, 
+.pagination-part .pagination>.active>a,
 .pagination-part .pagination>.active>a:focus,
 .pagination-part .pagination>.active>a:hover,
 .pagination-part .pagination>.active>span,
 .pagination-part .pagination>.active>span:focus,
 .pagination-part .pagination>.active>span:hover {
-    
+
     color: #fff;
     cursor: pointer;
     background-color:#908edf;
@@ -2021,13 +2056,14 @@ a:active.learn-btn{
 
 /*bl-single-head*/
 .bl-single-head h3 a {
-    padding: 21px 0 17px 0;
+    padding: 25px 0 17px 0;
     color: #4d4e54;
     font-size: 30px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', serif;
 	text-transform: capitalize;
 }
+
 .bl-single-head p{
 	color: #a4a4a4;
     font-size: 14px;
@@ -2038,12 +2074,16 @@ a:active.learn-btn{
 	color: #4d4e54;
     font-family: 'Poppins', sans-serif;
 
-}/*bl-single-head*/
+}
+.blog-quote{
+  font-weight: bold;
+}
+/*bl-single-head*/
 
 
 /*bl-single-para*/
 .bl-single-para{
-	padding: 34px 0 0 0;
+	padding: 34px 0 30px 0;
 }
 .bl-single-para h3{
 	color: #636363;
@@ -2058,8 +2098,9 @@ a:active.learn-btn{
 	color: #888;
     font-size:16px;
     font-family: 'Poppins', sans-serif;
-	line-height: 1.87;
+    line-height: 1.87;
     text-transform: none;
+    padding-bottom: 25px;
 }
 .bl-single-para  blockquote {
     color: #636363;
@@ -2096,7 +2137,20 @@ a:active.learn-btn{
 }/*blog-xtra-body*/
 
 /*bl-single-para*/
+.bl-single-para p{
+  /* padding-right: 150px; */
 
+}
+
+.blog img{
+  width: 80%;
+  height: 80%;
+}
+
+.whitespace{
+  padding: 50px;
+
+}
 /*bl-single-contact-box*/
 .bl-single-contact-box{
 	border-top:1px solid #ebebeb;
@@ -2123,7 +2177,7 @@ a:active.learn-btn{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
-.bl-single-tag p span a{ 
+.bl-single-tag p span a{
 	color: #636363;
 	text-transform: capitalize;
 }/*.bl-list-icon */
@@ -2173,7 +2227,7 @@ a:active.learn-btn{
 	display: -webkit-box;
 	padding-bottom:43px;
 	margin-bottom: 38px;
-	
+
 }
 .xtra-comment-body{
 	border-bottom: 1px solid #dfdfdf;
@@ -2235,9 +2289,9 @@ a:active.learn-btn{
     background:#216880;
 	border:1px solid #216880;
 	border-radius:5px;
-	-webkit-transition: .25s; 
-	-moz-transition:.25s; 
-	-ms-transition:.25s; 
+	-webkit-transition: .25s;
+	-moz-transition:.25s;
+	-ms-transition:.25s;
 	-o-transition:.25s;
     transition: .25s;
 	z-index: 2;
@@ -2255,7 +2309,7 @@ a:active.learn-btn{
 	padding-bottom: 56.25%;
 	padding-top: 30px; height: 0; overflow: hidden;
 }
-	 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -2268,7 +2322,33 @@ a:active.learn-btn{
 
 	.teaser {
 		background-color: #f9faff;
-		padding: 100px 100px;
+    align-content: center;
+    padding: 50px 50px;
 	}
+
+  /*===============================
+      Blogposts
+  ===============================*/
+
+.blogpost h2{
+  padding-top: 35px;
+  font-family: Lato, sans-serif;
+}
+.blogpost p{
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Lato,  serif;
+  font-weight: 400;
+}
+.blogpost h4{
+  font-family: Lato, serif;
+  font-weight: 400;
+  padding: 10px;
+}
+.blogpost li{
+  font-family: Lato, serif;
+  font-weight: 400;
+}
 
 /*========================Thank you=================
