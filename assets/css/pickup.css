@@ -166,7 +166,27 @@ section {
     background-color: #f8d14f;
 }
 
+.pickup-ks .su-arrow-left {
+    width: 70px;
+    position: relative;
+    right: 900px;
+    display: none;
+}
 
+.pickup-ks .su-arrow-bl {
+    width: 60px;
+    position: absolute;
+    top: 240px;
+    /* display: none; */
+}
+
+.pickup-ks .su-arrow-bottom {
+    width: 70px;
+    position: absolute;
+    top: 240px;
+    left: 260px;
+    /* display: none; */
+}
 
 .mask img {
     -webkit-transform: rotate(45deg);

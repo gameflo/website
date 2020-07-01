@@ -2004,7 +2004,11 @@ a:active.learn-btn{
 	color:#908edf;
 	border:1px solid #908edf;
 }
-/*-blog button-*/\
+
+.bl-article-post-img {
+	margin-top: 12px;
+}
+/*-blog button-*/
 
 /*pagination*/
 .pagination-part {
@@ -2134,7 +2138,7 @@ a:active.learn-btn{
 
 /*bl-single-para*/
 .bl-single-para p{
-  padding-right: 150px;
+  /* padding-right: 150px; */
 
 }
 
