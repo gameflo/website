@@ -335,4 +335,16 @@ section {
     .pickup-headline .game-metadata img {
         margin-right: 1.2em;
     }
+
+    .pickup-ks .su-arrow-left {
+        display: none;
+    }
+    
+    .pickup-ks .su-arrow-bl {
+        display: none;
+    }
+    
+    .pickup-ks .su-arrow-bottom {
+        display: none;
+    }
   }
