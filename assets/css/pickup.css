@@ -287,6 +287,9 @@ section {
       padding-bottom: 0px;
   }
 
+  .mail-to:hover {
+    display: block;
+  }
   /* Responsive */
 
   @media only screen and (max-width: 600px) {
