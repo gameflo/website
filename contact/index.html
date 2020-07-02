@@ -188,7 +188,7 @@ c15 69 16 91 7 102 -22 26 -54 16 -117 -35 -34 -27 -65 -50 -69 -50 -3 0 -3
 								<div class="single-contact-box">
 									<div class="contact-form">
 										<h3>Leave a Message</h3>
-										<form action="https://formspree.io/mbjjkwpb" method="POST">
+										<form id="contact-us-form" action="https://formspree.io/myyndrlg" method="POST">
 											<div class="row">
 												<div class="col-sm-12 col-xs-12">
 													<div class="form-group">
@@ -204,7 +204,7 @@ c15 69 16 91 7 102 -22 26 -54 16 -117 -35 -34 -27 -65 -50 -69 -50 -3 0 -3
 												</div><!--/.col-->
 												<div class="col-sm-6 col-xs-12">
 													<div class="form-group">
-														<input type="text" class="form-control" id="phone" placeholder="Phone" name="phone">
+														<input type="number" class="form-control" id="phone" placeholder="Phone" name="phone">
 													</div><!--/.form-group-->
 												</div><!--/.col-->
 											</div><!--/.row-->
@@ -218,10 +218,11 @@ c15 69 16 91 7 102 -22 26 -54 16 -117 -35 -34 -27 -65 -50 -69 -50 -3 0 -3
 											<div class="row">
 												<div class="col-sm-12">
 													<div class="single-contact-btn pull-right">
-														<button class="contact-btn" type="submit" value="send">send message</button>
+														<button id="contact-submit" class="contact-btn" type="submit" value="send">send message</button>
 													</div><!--/.single-single-contact-btn-->
 												</div><!--/.col-->
 											</div><!--/.row-->
+											<p style="color: #fff" id="contact-result"></p>
 										</form><!--/form-->
 									</div><!--/.contact-form-->
 								</div><!--/.single-contact-box-->
@@ -303,6 +304,53 @@ c15 69 16 91 7 102 -22 26 -54 16 -117 -35 -34 -27 -65 -50 -69 -50 -3 0 -3
         <script type="text/javascript" src="../assets/js/jak-menusearch.js"></script>
         <script type="text/javascript" src="../assets/js/custom.js"></script>
 
+		<script>
+            window.addEventListener("DOMContentLoaded", function() {
+          
+              // get the form elements defined in your form HTML above
+              
+              var form = document.getElementById("contact-us-form");
+              var button = document.getElementById("contact-submit");
+              var status = document.getElementById("contact-result");
+          
+              // Success and Error functions for after the form is submitted
+              
+              function success() {
+                form.reset();
+                button.disabled = true;
+                status.innerText = "Thanks for your inquiry! We'll get back to you as soon as possible";
+              }
+          
+              function error() {
+                status.innerText = "Oops! There was a problem.";
+              }
+          
+              // handle the form submission event
+          
+              form.addEventListener("submit", function(ev) {
+                ev.preventDefault();
+                var data = new FormData(form);
+                ajax(form.method, form.action, data, success, error);
+              });
+            });
+            
+            // helper function for sending an AJAX request
+          
+            function ajax(method, url, data, success, error) {
+              var xhr = new XMLHttpRequest();
+              xhr.open(method, url);
+              xhr.setRequestHeader("Accept", "application/json");
+              xhr.onreadystatechange = function() {
+                if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                if (xhr.status === 200) {
+                  success(xhr.response, xhr.responseType);
+                } else {
+                  error(xhr.status, xhr.response, xhr.responseType);
+                }
+              };
+              xhr.send(data);
+            }
+          </script>
 
   </body>
 </html>
